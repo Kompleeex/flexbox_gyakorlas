@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+nav{
+    margin: auto;
+    width: 1000px;
+    background-color: darkcyan;
+    border: 1px solid black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    padding: 5px;
+}
+
+main{
+    width: 1000px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    color: white;
+    flex: 0 0 10%;
+    padding: 5px;
+    border: 1px solid white;
+    
+}
+
+article{
+    display: flex;
+    flex: 0 0 70%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+article .asd{
+    flex:0 0 30%;
+}
